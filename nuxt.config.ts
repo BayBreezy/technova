@@ -7,8 +7,6 @@ import {
   SITE_URL,
 } from "./app/utils/seo.js";
 
-const isDev = process.env.NODE_ENV !== "production";
-
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
@@ -72,10 +70,10 @@ export default defineNuxtConfig({
   // Nuxt Security - https://nuxt-security.vercel.app/documentation/getting-started/setup
   security: {
     headers: {
-      crossOriginEmbedderPolicy: isDev ? "unsafe-none" : "require-corp",
+      crossOriginEmbedderPolicy: "unsafe-none",
       contentSecurityPolicy: {
-        "img-src": false,
-        "font-src": false,
+        "img-src": ["'self'", "data:", "https://randomuser.me", "https://*.unsplash.com"],
+        "style-src": ["'self'", "'unsafe-inline'", "https://rsms.me"],
       },
     },
   },
