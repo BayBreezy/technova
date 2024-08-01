@@ -155,4 +155,4 @@ dist
 .pnp.*
 
 # Ignore locales formatting
-locales/*.json
+**/locales/*.json

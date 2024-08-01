@@ -74,6 +74,7 @@ export default defineNuxtConfig({
       contentSecurityPolicy: {
         "img-src": ["'self'", "data:", "https://randomuser.me", "https://*.unsplash.com"],
         "style-src": ["'self'", "'unsafe-inline'", "https://rsms.me"],
+        "script-src": ["'self'", "'unsafe-inline'", "https://*.hotjar.com"],
       },
     },
   },
