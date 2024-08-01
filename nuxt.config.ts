@@ -72,9 +72,22 @@ export default defineNuxtConfig({
     headers: {
       crossOriginEmbedderPolicy: "unsafe-none",
       contentSecurityPolicy: {
-        "img-src": ["'self'", "data:", "https://randomuser.me", "https://*.unsplash.com"],
+        "img-src": [
+          "'self'",
+          "data:",
+          "https://randomuser.me",
+          "https://*.unsplash.com",
+          "https://*.hotjar.com",
+        ],
         "style-src": ["'self'", "'unsafe-inline'", "https://rsms.me"],
         "script-src": ["'self'", "'unsafe-inline'", "https://*.hotjar.com"],
+        "connect-src": [
+          "'self'",
+          "https://randomuser.me",
+          "https://*.unsplash.com",
+          "https://*.hotjar.com",
+          "wss://*.hotjar.com",
+        ],
       },
     },
   },
