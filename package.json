@@ -43,7 +43,7 @@
   "devDependencies": {
     "@hypernym/nuxt-gsap": "^2.4.2",
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
-    "@iconify-json/logos": "^1.1.43",
+    "@iconify-json/logos": "^1.1.44",
     "@iconify-json/lucide": "^1.1.204",
     "@iconify-json/ph": "^1.1.13",
     "@nuxtjs/color-mode": "^3.4.2",
