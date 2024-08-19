@@ -49,7 +49,7 @@
     "@nuxtjs/color-mode": "^3.4.4",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@tailwindcss/forms": "^0.5.7",
-    "@vueuse/nuxt": "^11.0.0",
+    "@vueuse/nuxt": "^11.0.1",
     "husky": "^9.1.4",
     "nuxt-rellax": "^0.0.12",
     "prettier": "^3.3.3",
