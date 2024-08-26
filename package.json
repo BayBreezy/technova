@@ -34,7 +34,7 @@
     "nuxt-module-hotjar": "^1.3.2",
     "nuxt-security": "^2.0.0-rc.9",
     "nuxt-translation-manager": "^1.1.1",
-    "radix-vue": "^1.9.4",
+    "radix-vue": "^1.9.5",
     "tailwind-variants": "^0.2.1",
     "vue": "3.4.38",
     "vue-sonner": "^1.1.4",
