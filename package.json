@@ -44,7 +44,7 @@
     "@hypernym/nuxt-gsap": "^2.4.3",
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@iconify-json/logos": "^1.2.0",
-    "@iconify-json/lucide": "^1.2.3",
+    "@iconify-json/lucide": "^1.2.4",
     "@iconify-json/ph": "^1.2.0",
     "@nuxtjs/color-mode": "^3.4.4",
     "@nuxtjs/tailwindcss": "^6.12.1",
