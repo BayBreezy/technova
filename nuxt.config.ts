@@ -49,9 +49,9 @@ export default defineNuxtConfig({
   // Nuxt i18n - https://i18n.nuxtjs.org/docs/getting-started
   i18n: {
     locales: [
-      { code: "en", iso: "en-US", name: "English", isCatchallLocale: true, file: "en.json" },
-      { code: "fr", iso: "fr-FR", name: "Français", file: "fr.json" },
-      { code: "es", iso: "es-ES", name: "Español", file: "es.json" },
+      { code: "en", language: "en-US", name: "English", isCatchallLocale: true, file: "en.json" },
+      { code: "fr", language: "fr-FR", name: "Français", file: "fr.json" },
+      { code: "es", language: "es-ES", name: "Español", file: "es.json" },
     ],
     strategy: "prefix_except_default",
     defaultLocale: SITE_LOCALE,
