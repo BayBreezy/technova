@@ -27,7 +27,7 @@ export default defineNuxtConfig({
     "nuxt-module-hotjar",
     "@hypernym/nuxt-gsap",
     "nuxt-rellax",
-    "../modules/translation",
+    "./modules/translation",
     "nuxt-marquee",
     "@nuxtjs/seo",
   ],
