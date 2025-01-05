@@ -23,7 +23,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@iconify/vue": "^4.2.0",
+    "@iconify/vue": "^4.3.0",
     "@nuxt/eslint": "^0.7.4",
     "@nuxt/icon": "^1.10.3",
     "@nuxtjs/i18n": "^8.5.6",
