@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@hypernym/nuxt-gsap": "^2.4.3",
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
     "@iconify-json/logos": "^1.2.4",
     "@iconify-json/lucide": "^1.2.22",
     "@iconify-json/ph": "^1.2.2",
